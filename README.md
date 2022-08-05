@@ -3,12 +3,15 @@
  
 [MyPredict 1](https://doi.org/10.4121/20418720)  
 10 able-bodied subjects (sex: 7m, 3f; age: 24±2 years; weight: 77±10 kg; height: 183±9cm) 
+1 measurement day (Day 1)
 
 [MyPredict 2](https://doi.org/10.4121/20418687)  
 35 able-bodied subjects (sex: 14m, 21f; age: 23±2 years; weight: 73±11 kg; height: 179±9 cm)
+1 measurement day (Day 1)
 
 [MyPredict 3](https://doi.org/10.4121/20430741)  
 10 able-bodied subjects (sex: 4m, 6f; age: 24±2 years; weight: 71±9 kg; height: 174±6 cm)  
+4 measurement days (Day 1, 2, 3, 7)
 
 ## File structure
 Each dataset (MyPredict 1-3) exists of seperate HDF5 files per subject. Each HDF5 file consists of the following structure. Herein is Day_X the measurement day (X: 1-4), Trial_YY the trial containing measurement data (YY: 01-..), MVC the Maximum Voluntary Contraction  (if applicable), uTrial_ZZ the unlabeled trials (ZZ: 01-.., if applicable), Meta contains the subject meta data.
