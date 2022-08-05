@@ -1,5 +1,5 @@
 # MyPredict
- This repository contains the supporting code for the Roessingh Research & Development-MyLeg database for activity prediction (MyPredict). This database consists of 55 subjects measured in 85 measurement moments. The measurement data are stored in seperate HDF5 files per subject. This repository aims to provide code to facilitate the loading and processing of the data from this database.
+ This repository contains the supporting code for the Roessingh Research & Development-MyLeg database for activity prediction ([MyPredict](https://doi.org/10.4121/c.6128343)). This database consists of 55 subjects measured in 85 measurement moments. The measurement data are stored in seperate HDF5 files per subject. This repository aims to provide code to facilitate the loading and processing of the data from this database.
  
 [MyPredict 1](https://doi.org/10.4121/20418720)  
 10 able-bodied subjects (sex: 7m, 3f; age: 24±2 years; weight: 77±10 kg; height: 183±9cm)  
