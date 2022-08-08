@@ -28,4 +28,32 @@ MyPredict 1
 ├── MP102.hdf5
 ...
 ```
-## Code
+## Code & Labels
+The folder 'code' contains an example script on how to load the MyPredict data sets. It requires python 3.x, matplotlib and [h5py](https://www.h5py.org/). The gait related activities in the data are labelled as follows:
+|     Label    |     Definition                                                |
+|--------------|---------------------------------------------------------------|
+|     -2       |     Between tracks                                            |
+|     -1       |     Error in data                                             |
+|     0        |     Sitting                                                   |
+|     1        |     Standing                                                  |
+|     2        |     Walking                                                   |
+|     2.1      |     Turn (around axes)                                        |
+|     3        |     Ascending   stairs                                        |
+|     4        |     Descending stairs                                         |
+|     5        |     Ascending a   ramp                                        |
+|     6        |     Descending a ramp                                         |
+|     7        |     Walking on   uneven terrain                               |
+|     7.1      |     Walking on uneven terrain (grass)                         |
+|     7.2      |     Walking on   uneven terrain (for track 3, middle part)    |
+|     7.3      |     Walking on uneven terrain (for track 3, last part)        |
+|     8.1      |     Diagonal step   in front left                             |
+|     8.2      |     Diagonal step in front right                              |
+|     8.3      |     Diagonal step   backwards right                           |
+|     8.4      |     Diagonal step backwards left                              |
+|     8.5      |     Small steps in   front                                    |
+|     8.6      |     Small steps to the right                                  |
+|     8.7      |     Small steps   backwards                                   |
+|     8.8      |     Small steps to the left                                   |
+|     9        |     Laying down                                               |
+
+
