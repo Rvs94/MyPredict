@@ -49,5 +49,5 @@ mrk_pelvis = marker['Mrk_Sacrum'][()]
 
 fig,ax = plt.subplots()
 ax1 = ax.twinx()
-ax.plot(mrk_time,mrk_pelvis)
+ax.plot(mrk_time,mrk_pelvis[:,-1]) # Only vertical displacement
 ax1.plot(time,label,'k')
