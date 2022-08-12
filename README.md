@@ -14,7 +14,7 @@
 4 measurement days (Day 1, 2, 3, 7)
 
 ## File structure
-Each dataset (MyPredict 1-3) exists of seperate HDF5 files per subject. Each HDF5 file consists of the following structure. Herein is Day_X the measurement day (X: 1-4), Trial_YY the trial containing measurement data (YY: 01-..), MVC the Maximum Voluntary Contraction  (if applicable), uTrial_ZZ the unlabeled trials (ZZ: 01-.., if applicable), Meta contains the subject meta data.
+Each dataset (MyPredict 1-3) exists of seperate HDF5 files per subject. Each HDF5 file consists of the following structure. Herein is Day_X the measurement day (X: 1-4), Trial_YY the trial containing measurement data (YY: 01-..), MVC the Maximum Voluntary Contraction  (if applicable), NoLabel_ZZ the unlabeled trials (ZZ: 01-.., if applicable), Meta contains the subject meta data.
 ```
 MyPredict 1
 ├── MP101.hdf5
@@ -23,7 +23,7 @@ MyPredict 1
 | | | ├── Acc_Right_Thigh
 | | | ├── ...
 | | ├── (MVC)
-| | └── (uTrial_ZZ)
+| | └── (NoLabel_ZZ)
 | └── Meta
 ├── MP102.hdf5
 ...
