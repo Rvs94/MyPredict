@@ -1,15 +1,15 @@
 # MyPredict
- This repository contains the supporting code for the Roessingh Research & Development-MyLeg database for activity prediction ([MyPredict](https://doi.org/10.4121/c.6128343)). This database consists of 55 subjects measured in 85 measurement moments. The measurement data are stored in seperate HDF5 files per subject. This repository aims to provide code to facilitate the loading and processing of the data from this database. This database contains lower body kinematics and EMG during gait-related activities such as level-ground walking, stair/ramp climbing and sit/stance. 
+This repository contains the supporting code for the Roessingh Research & Development-MyLeg database for activity prediction ([MyPredict]([https://doi.org/10.4121/c.6128343](https://doi.org/10.4121/20418720))). This database consists of 55 subjects measured in 85 measurement moments. The measurement data are stored in seperate HDF5 files per subject. This repository aims to provide code to facilitate the loading and processing of the data from this database. This database contains lower body kinematics and EMG during gait-related activities such as level-ground walking, stair/ramp climbing and sit/stance. 
  
-[MyPredict 1](https://doi.org/10.4121/20418720)  
+MyPredict 1
 10 able-bodied subjects (sex: 7m, 3f; age: 24±2 years; weight: 77±10 kg; height: 183±9cm)  
 1 measurement day (Day 1)
 
-[MyPredict 2](https://doi.org/10.4121/20418687)  
+MyPredict 2
 35 able-bodied subjects (sex: 14m, 21f; age: 23±2 years; weight: 73±11 kg; height: 179±9 cm)  
 1 measurement day (Day 1)
 
-[MyPredict 3](https://doi.org/10.4121/20430741)  
+MyPredict 3
 10 able-bodied subjects (sex: 4m, 6f; age: 24±2 years; weight: 71±9 kg; height: 174±6 cm)  
 4 measurement days (Day 1, 2, 3, 7)
 
